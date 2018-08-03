@@ -1,0 +1,76 @@
+
+Current test_suite -->tr181_datamodel.test
+-----------------------------------------------------------------------------------------------------------------------------
+[E]Jun16-2018-05:56:15 | <----tr181_datamodel.test TEST_ERROR 1----> speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-05:56:26 | <----tr181_datamodel.test TEST_ERROR 2----> speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-06:07:43 | <----tr181_datamodel.test TEST_ERROR 3----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:07:43 | <----tr181_datamodel.test TEST_ERROR 3----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 4----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 5----> check_datamodel : 'Device.DeviceInfo.ProductClass' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 6----> check_datamodel : 'Device.DeviceInfo.ModelName' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 7----> check_datamodel : 'Device.DeviceInfo.AdditionalSoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 8----> check_datamodel : 'Device.DeviceInfo.Description' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 9----> check_datamodel : 'Device.DeviceInfo.HardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 10----> check_datamodel : 'Device.DeviceInfo.AdditionalHardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 11----> check_datamodel : 'Device.DeviceInfo.ProvisioningCode' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 12----> check_datamodel : 'Device.DeviceInfo.SoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 13----> check_datamodel : 'Device.DeviceInfo.ManufacturerOUI' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 14----> check_datamodel : 'Device.DeviceInfo.UpTime' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 15----> check_datamodel : 'Device.DeviceInfo.Manufacturer' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 16----> check_datamodel : 'Device.DeviceInfo.SerialNumber' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 17----> check_datamodel : 'Device.DeviceInfo.FirstUseDate' is not found in datamodel
+[E]Jun16-2018-06:09:21 | <----tr181_datamodel.test TEST_ERROR 18----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:22 | <----tr181_datamodel.test TEST_ERROR 19----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 4----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 5----> check_datamodel : 'Device.DeviceInfo.ProductClass' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 6----> check_datamodel : 'Device.DeviceInfo.ModelName' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 7----> check_datamodel : 'Device.DeviceInfo.AdditionalSoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 8----> check_datamodel : 'Device.DeviceInfo.Description' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 9----> check_datamodel : 'Device.DeviceInfo.HardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 10----> check_datamodel : 'Device.DeviceInfo.AdditionalHardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 11----> check_datamodel : 'Device.DeviceInfo.ProvisioningCode' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 12----> check_datamodel : 'Device.DeviceInfo.SoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 13----> check_datamodel : 'Device.DeviceInfo.ManufacturerOUI' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 14----> check_datamodel : 'Device.DeviceInfo.UpTime' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 15----> check_datamodel : 'Device.DeviceInfo.Manufacturer' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 16----> check_datamodel : 'Device.DeviceInfo.SerialNumber' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 17----> check_datamodel : 'Device.DeviceInfo.FirstUseDate' is not found in datamodel
+[E]Jun16-2018-06:09:21 | <----tr181_datamodel.test TEST_ERROR 18----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:22 | <----tr181_datamodel.test TEST_ERROR 19----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 20----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 21----> wifiDeviceArray is Empty so cannot continue test!!!
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 20----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 21----> wifiDeviceArray is Empty so cannot continue test!!!
+-----------------------------------------------------------------------------------------------------------------------------
+Current test_suite -->led.test
+-----------------------------------------------------------------------------------------------------------------------------
+[E]Jun16-2018-05:48:39 | <----led.test TEST_ERROR 1----> ::tcltest::prepareModem : Unable to ping to modem on test ip address
+-----------------------------------------------------------------------------------------------------------------------------
+Current test_suite -->upnp.test
+-----------------------------------------------------------------------------------------------------------------------------
+[E]Jun16-2018-07:26:30 | <----upnp.test TEST_ERROR 1----> speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-07:26:44 | <----upnp.test TEST_ERROR 2----> ::speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-07:26:53 | <----upnp.test TEST_ERROR 3----> ::speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-07:27:02 | <----upnp.test TEST_ERROR 4----> ::speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-07:40:10 | <----upnp.test TEST_ERROR 5----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-07:40:10 | <----upnp.test TEST_ERROR 6----> PortMap Entries Added for TCP for 10.10.203.26 is not reflected in Device Datamodel-Test Fail
+[E]Jun16-2018-07:54:29 | <----upnp.test TEST_ERROR 7----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-07:54:29 | <----upnp.test TEST_ERROR 8----> PortMap Entries Added for UDP for 10.10.203.26 is not reflected in Device Datamodel-Test Fail
+-----------------------------------------------------------------------------------------------------------------------------
+Current test_suite -->GUI_Generic.test
+-----------------------------------------------------------------------------------------------------------------------------
+[E]Jun12-2018-12:34:44 | <----GUI_Generic.test TEST_ERROR 1----> Unable to add admin role for contentSharing,Error Message : uci: Invalid argument
+[E]Jun12-2018-12:34:50 | <----GUI_Generic.test TEST_ERROR 2----> Unable to add admin role for printerSharing,Error Message : uci: Invalid argument
+[E]Jun12-2018-12:35:31 | <----GUI_Generic.test TEST_ERROR 3---->  Failed to add admin role
+[E]Jun12-2018-15:44:17 | <----GUI_Generic.test TEST_ERROR 147----> visibility is not matching even after 120 seconds
+[E]Jun12-2018-15:44:17 | <----GUI_Generic.test TEST_ERROR 148----> Unable to find the path for id=ipaddr
+[E]Jun12-2018-15:47:04 | <----GUI_Generic.test TEST_ERROR 149----> visibility is not matching even after 120 seconds
+[E]Jun12-2018-15:47:04 | <----GUI_Generic.test TEST_ERROR 150----> Unable to find the path for id=dns
+-----------------------------------------------------------------------------------------------------------------------------
+Current test_suite -->fast.test
+-----------------------------------------------------------------------------------------------------------------------------
+[E]Jun19-2018-07:25:42 | <----fast.test TEST_ERROR 5----> WiFi-Doctor Agent LogMessage not present in logread. Please check the WifiDoctor Module
+[E]Jun19-2018-07:38:46 | <----fast.test TEST_ERROR 11----> visibility is not matching even after 120 seconds
+[E]Jun19-2018-07:38:46 | <----fast.test TEST_ERROR 12----> Failed to login to homepage with password SY08TREK
+[E]Jun19-2018-07:38:46 | <----fast.test TEST_ERROR 13----> Failed to login to gateway
+-----------------------------------------------------------------------------------------------------------------------------

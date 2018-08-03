@@ -1,0 +1,6 @@
+2018/08/03 15:03:18 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/03 15:03:18 logscanner.sh :- Source file available...!
+2018/08/03 15:03:18 logscanner.sh :- Started scanning logs...!
+2018/08/03 15:03:19 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/03 15:03:19 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/03 15:03:20 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------

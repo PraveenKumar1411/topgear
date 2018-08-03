@@ -1,0 +1,436 @@
+################################################################################
+Tests running in interp:  /usr/bin/tclsh
+Tests located in:  /tcl_automation/stcltest
+Tests running in:  /tcl_automation/workspace
+Temporary files stored in /tcl_automation/workspace
+Log files stored in /tcl_automation/workspace/testresults.txt
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  tr181_datamodel.test
+Tests began at Sat Jun 16 05:48:39 IST 2018
+################################################################################
+tr181_datamodel.test
+[I]Jun16-2018-05:48:39 | Registering child stop proc 'file8'
+TESTSERVERIF : CHILD INITIALISED 9000
+[I]Jun16-2018-05:48:39 | use the config file @jenkins_config_setup.tcl in /tcl_automation/workspace/
+[I]Jun16-2018-05:48:39 | SERIAL connection with MOXA because _connection(port) is known
+[I]Jun16-2018-05:48:39 | Connecting to 10.142.107.242:3014
+[I]Jun16-2018-05:48:50 | Not matching version element uci show version
+[I]Jun16-2018-05:48:50 | Not matching version element root@OpenWrt:~# 
+[I]Jun16-2018-05:48:57 | Resetting the modem to factory defaults with reconnect 1
+[I]Jun16-2018-05:56:06 | ::tcltest::prepareModem : configure modem interfaces for Modem
+[I]Jun16-2018-05:56:06 | ::tcltest::prepareModem : LAN side ip interface on modem is pingable
+[I]Jun16-2018-05:56:06 | Check and Enable Device Datamodel in DUT
+[E]Jun16-2018-05:56:15 | <----tr181_datamodel.test TEST_ERROR 1----> speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[W]Jun16-2018-05:56:17 | speedtouch: connection not open. cannot send 'uci set system.@coredump[0].reboot=0'
+[W]Jun16-2018-05:56:17 | speedtouch: connection not open. cannot send 'uci set system.@system[0].conloglevel=7'
+[E]Jun16-2018-05:56:26 | <----tr181_datamodel.test TEST_ERROR 2----> speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[I]Jun16-2018-06:05:44 | Modem wan ip is 10.10.203.81
+[I]Jun16-2018-06:05:44 | Modem mgmt ip is 10.10.203.81
+[I]Jun16-2018-06:05:44 | Modem iptv ip is 10.10.203.81
+[I]Jun16-2018-06:05:44 | Modem voip ip is 10.10.203.81
+[I]Jun16-2018-06:06:51 | extraconfig : WAN Connectivity to Play network and Internet OK
+[I]Jun16-2018-06:06:56 | tr181_check_PPPConnection testcase is skipped for any below reasons:
+DUT Wan Protocol is not pppoe
+---- tr181_check_Hosts start "Check the content of Hosts datamodel
+		Description:
+**** tr181_check_Hosts begins at "Jun16-2018-06:07:01"
+:::: tr181_check_Hosts fqtentry 
+[I]Jun16-2018-06:07:02 | Wait for 10 seconds for DUT to update Host file after reboot 
+[E]Jun16-2018-06:07:43 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:07:43 | <----tr181_datamodel.test TEST_ERROR 3----> tr69_get_datamodel : ACS result is failed
+**** tr181_check_Hosts ends at "Jun16-2018-06:07:43"
+
+==== tr181_check_Hosts Check the content of Hosts datamodel
+		Description:
+---- Failed in script: /tcl_automation/stcltest/triplePlayCI/tr181_datamodel.test:line:65: error: test failed
+==== Log Records :
+[I]Jun16-2018-06:07:02 | Wait for 10 seconds for DUT to update Host file after reboot 
+[E]Jun16-2018-06:07:43 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:07:43 | <----tr181_datamodel.test TEST_ERROR 3----> tr69_get_datamodel : ACS result is failed
+
+---- Result was:
+0
+---- Result should have been (exact matching):
+1
+==== tr181_check_Hosts FAILED
+
+---- tr181_check_DeviceInfo start "Description:
+**** tr181_check_DeviceInfo begins at "Jun16-2018-06:07:43"
+:::: tr181_check_DeviceInfo fqtentry 
+[E]Jun16-2018-06:08:51 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 4----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 5----> check_datamodel : 'Device.DeviceInfo.ProductClass' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 6----> check_datamodel : 'Device.DeviceInfo.ModelName' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 7----> check_datamodel : 'Device.DeviceInfo.AdditionalSoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 8----> check_datamodel : 'Device.DeviceInfo.Description' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 9----> check_datamodel : 'Device.DeviceInfo.HardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 10----> check_datamodel : 'Device.DeviceInfo.AdditionalHardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 11----> check_datamodel : 'Device.DeviceInfo.ProvisioningCode' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 12----> check_datamodel : 'Device.DeviceInfo.SoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 13----> check_datamodel : 'Device.DeviceInfo.ManufacturerOUI' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 14----> check_datamodel : 'Device.DeviceInfo.UpTime' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 15----> check_datamodel : 'Device.DeviceInfo.Manufacturer' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 16----> check_datamodel : 'Device.DeviceInfo.SerialNumber' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 17----> check_datamodel : 'Device.DeviceInfo.FirstUseDate' is not found in datamodel
+[I]Jun16-2018-06:08:51 | ****Setting the invalid value with multiple setParameterValues and check if ACS is failed-NG-46757********
+[E]Jun16-2018-06:09:21 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:09:21 | <----tr181_datamodel.test TEST_ERROR 18----> tr69_get_datamodel : ACS result is failed
+[I]Jun16-2018-06:09:52 | Expected Fault Code 9003 is present in the SetParameterValuesFault response
+[I]Jun16-2018-06:09:52 | Invalid Values not set via tr69 got faultReceived with FaultCode '9003' and the Faultstring is '{Invalid arguments}' Error- Test Pass !!!
+[E]Jun16-2018-06:10:22 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:10:22 | <----tr181_datamodel.test TEST_ERROR 19----> tr69_get_datamodel : ACS result is failed
+**** tr181_check_DeviceInfo ends at "Jun16-2018-06:10:22"
+
+==== tr181_check_DeviceInfo Description:
+		Compare the content of DeviceInfo datamodel with uci param
+		Steps:
+		1.Get the uci params from gateway and store it in a list
+		2.Get the Device.DeviceInfo params via tr69
+		3.Compare both params.Fail the testcase if the param doesn't match.Else pass the testcase
+		4.Get the Device.DeviceInfo params via tr69 and store it in an array
+		5.Set the invalid value with multiple setParameterValues and check if ACS is failed.Else Fail the testcase
+		6.Get the Device.DeviceInfo params via tr69 and compare it with the Step4's array values. Values should match else fail the testcase. FAILED
+---- Failed in script: /tcl_automation/stcltest/triplePlayCI/tr181_datamodel.test:line:102: error: test failed
+==== Log Records :
+[E]Jun16-2018-06:08:51 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 4----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 5----> check_datamodel : 'Device.DeviceInfo.ProductClass' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 6----> check_datamodel : 'Device.DeviceInfo.ModelName' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 7----> check_datamodel : 'Device.DeviceInfo.AdditionalSoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 8----> check_datamodel : 'Device.DeviceInfo.Description' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 9----> check_datamodel : 'Device.DeviceInfo.HardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 10----> check_datamodel : 'Device.DeviceInfo.AdditionalHardwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 11----> check_datamodel : 'Device.DeviceInfo.ProvisioningCode' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 12----> check_datamodel : 'Device.DeviceInfo.SoftwareVersion' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 13----> check_datamodel : 'Device.DeviceInfo.ManufacturerOUI' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 14----> check_datamodel : 'Device.DeviceInfo.UpTime' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 15----> check_datamodel : 'Device.DeviceInfo.Manufacturer' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 16----> check_datamodel : 'Device.DeviceInfo.SerialNumber' is not found in datamodel
+[E]Jun16-2018-06:08:51 | <----tr181_datamodel.test TEST_ERROR 17----> check_datamodel : 'Device.DeviceInfo.FirstUseDate' is not found in datamodel
+[I]Jun16-2018-06:08:51 | ****Setting the invalid value with multiple setParameterValues and check if ACS is failed-NG-46757********
+[E]Jun16-2018-06:09:21 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:09:21 | <----tr181_datamodel.test TEST_ERROR 18----> tr69_get_datamodel : ACS result is failed
+[I]Jun16-2018-06:09:52 | Expected Fault Code 9003 is present in the SetParameterValuesFault response
+[I]Jun16-2018-06:09:52 | Invalid Values not set via tr69 got faultReceived with FaultCode '9003' and the Faultstring is '{Invalid arguments}' Error- Test Pass !!!
+[E]Jun16-2018-06:10:22 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:10:22 | <----tr181_datamodel.test TEST_ERROR 19----> tr69_get_datamodel : ACS result is failed
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: can't read "devInfoAfterSet(Device.DeviceInfo.ProvisioningCode,value)": no such element in array
+    while executing
+"if {$devInfoAfterSet(Device.DeviceInfo.ProvisioningCode,value) == $devInfo(Device.DeviceInfo.ProvisioningCode,value)} {
+			log::info "Invalid Values n..."
+    ("uplevel" body line 53)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== tr181_check_DeviceInfo FAILED
+
+---- tr181_check_WIFI start "Check the content of WIFI datamodel
+		Description:
+**** tr181_check_WIFI begins at "Jun16-2018-06:10:22"
+:::: tr181_check_WIFI fqtentry
+[I]Jun16-2018-06:10:22 | Getting the 'Device.WiFi.' tree via ACS
+[E]Jun16-2018-06:10:53 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 20----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 21----> wifiDeviceArray is Empty so cannot continue test!!!
+**** tr181_check_WIFI ends at "Jun16-2018-06:10:53"
+
+==== tr181_check_WIFI Check the content of WIFI datamodel
+		Description:
+---- Failed in script: /tcl_automation/stcltest/triplePlayCI/tr181_datamodel.test:line:181: error: test failed
+==== Log Records :
+[I]Jun16-2018-06:10:22 | Getting the 'Device.WiFi.' tree via ACS
+[E]Jun16-2018-06:10:53 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 20----> tr69_get_datamodel : ACS result is failed
+[E]Jun16-2018-06:10:53 | <----tr181_datamodel.test TEST_ERROR 21----> wifiDeviceArray is Empty so cannot continue test!!!
+
+---- Result was:
+0 0 0 0 0
+---- Result should have been (exact matching):
+1
+==== tr181_check_WIFI FAILED
+
+################################################################################
+Tests running in interp:  /usr/bin/tclsh
+Tests located in:  /tcl_automation/stcltest/triplePlayCI
+Tests running in:  /tcl_automation/workspace/
+Temporary files stored in /tcl_automation/workspace/
+Log files stored in /tcl_automation/workspacetestresults.txt
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  led.test
+Tests began at Sat Jun 16 05:38:12 IST 2018
+################################################################################
+led.test
+[I]Jun16-2018-05:38:12 | Registering child stop proc 'file8'
+TESTSERVERIF : CHILD INITIALISED 9000
+[I]Jun16-2018-05:38:12 | use the config file @jenkins_config_setup.tcl in /tcl_automation/workspace/
+[I]Jun16-2018-05:38:12 | ::log::setTraceFilename: /tcl_automation/workspace/trace_led.log
+[I]Jun16-2018-05:38:12 | SERIAL connection with MOXA because _connection(port) is known
+[I]Jun16-2018-05:38:12 | Connecting to 10.142.107.242:3014
+[I]Jun16-2018-05:38:19 | Not matching version element uci show version
+[I]Jun16-2018-05:38:19 | Not matching version element root@OpenWrt:~# 
+[I]Jun16-2018-05:38:41 | startUpgradeThread : starting upgrade thread --> tid0xb5dffb40
+Listening on UDP port: 69, sock: sock14
+[I]Jun16-2018-05:38:42 | bootp::start : bootp service started on eth2 (192.168.1.61) for 'C4:EA:1D:AD:C6:C6'
+[I]Jun16-2018-05:38:42 | ::modemUpgrader::upgradeThread | started
+[I]Jun16-2018-05:38:43 | ::modemUpgrader::upgradeModem : sending upgrade command to modem
+[I]Jun16-2018-05:39:42 | ::bootp::handlePacket : responding to bootp request from C4:EA:1D:AD:C6:C6 on eth2
+Sending /tcl_automation/tcl_packages/core/modemUpgrader/vant-f_0-18.3.0072-0900000.bli, mode octet to 192.168.1.1:8192
+[I]Jun16-2018-05:42:04 | waitForPacket : waiting for packet from C4:EA:1D:AD:C6:C6 on eth2 (timeout is 400 seconds)
+[I]Jun16-2018-05:42:05 | waitForPacket : packet received
+[I]Jun16-2018-05:47:56 | stopUpgradeThread : stopping upgrade thread tid0xb5dffb40
+Stopped listening
+[I]Jun16-2018-05:47:57 | ::modemUpgrader::upgradeThread | finished
+[I]Jun16-2018-05:47:57 | SERIAL connection with MOXA because _connection(port) is known
+[I]Jun16-2018-05:47:57 | Connecting to 10.142.107.242:3014
+[I]Jun16-2018-05:48:07 | Not matching version element uci show version
+[I]Jun16-2018-05:48:07 | Not matching version element root@OpenWrt:~# 
+[I]Jun16-2018-05:48:14 | ::modemUpgrader::upgradeModem : Upgrade completed successfully, build = 18.3.0072-0900000
+[I]Jun16-2018-05:48:14 | ::tcltest::prepareModem : configure modem interfaces for Modem
+[I]Jun16-2018-05:48:16 | ::tcltest::prepareModem : Creating IP address on modem LAN side
+[E]Jun16-2018-05:48:39 | <----led.test TEST_ERROR 1----> ::tcltest::prepareModem : Unable to ping to modem on test ip address
+
+[I]Jun16-2018-05:48:39 | Unregistering child stop proc
+
+Tests ended at Sat Jun 16 05:48:39 IST 2018
+################################################################################
+all.tcl:	Total	0	Passed	0	Skipped	0	Failed	0
+
+Sourced 1 Test Files.
+################################################################################
+################################################################################
+Tests running in interp:  /usr/bin/tclsh
+Tests located in:  /tcl_automation/stcltest/triplePlayCI
+Tests running in:  /tcl_automation/workspace/CI_Extensive_vant-f_generic
+Temporary files stored in /tcl_automation/workspace/CI_Extensive_vant-f_generic
+Log files stored in /tcl_automation/workspace/CI_Extensive_vant-f_generic/@log/1320123/799vac_vant-f/2018_06_16_05h37m59s/testresults.txt
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  upnp.test
+Tests began at Sat Jun 16 07:18:51 IST 2018
+################################################################################
+upnp.test
+[I]Jun16-2018-07:18:51 | Registering child stop proc 'file8'
+TESTSERVERIF : CHILD INITIALISED 9000
+[I]Jun16-2018-07:18:51 | use the config file @jenkins_config_setup.tcl in /tcl_automation/workspace/CI_Extensive_vant-f_generic
+[I]Jun16-2018-07:18:51 | ::log::setTraceFilename: /tcl_automation/workspace/CI_Extensive_vant-f_generic/@log/1320123/799vac_vant-f/2018_06_16_05h37m59s/traceFailed/trace_upnp.log
+[I]Jun16-2018-07:18:52 | SERIAL connection with MOXA because _connection(port) is known
+[I]Jun16-2018-07:19:05 | Resetting the modem to factory defaults with reconnect 1
+[I]Jun16-2018-07:26:21 | ::tcltest::prepareModem : configure modem interfaces for Modem
+[I]Jun16-2018-07:26:21 | ::tcltest::prepareModem : LAN side ip interface on modem is pingable
+[I]Jun16-2018-07:26:21 | Check and Enable Both Datamodel in DUT
+[E]Jun16-2018-07:26:30 | <----upnp.test TEST_ERROR 1----> speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[I]Jun16-2018-07:26:30 | Adding extra configuration for DHCP sent option
+[E]Jun16-2018-07:26:44 | <----upnp.test TEST_ERROR 2----> ::speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-07:26:53 | <----upnp.test TEST_ERROR 3----> ::speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[E]Jun16-2018-07:27:02 | <----upnp.test TEST_ERROR 4----> ::speedtouch::sshExec : Error returned by ssh : 'ssh: connect to host 192.168.1.1 port 22: Connection refused'
+[I]Jun16-2018-07:27:37 | Creating new static DHCP Lease
+[I]Jun16-2018-07:28:42 | Adding IPv6rd static interface configuration
+[W]Jun16-2018-07:28:48 | speedtouch: connection not open. cannot send 'uci set system.@coredump[0].reboot=0'
+[W]Jun16-2018-07:28:48 | speedtouch: connection not open. cannot send 'uci set system.@system[0].conloglevel=7'
+[I]Jun16-2018-07:37:51 | No core file generated
+[I]Jun16-2018-07:37:57 | Modem wan ip is 10.10.203.94
+[I]Jun16-2018-07:37:57 | Modem mgmt ip is 10.10.203.94
+[I]Jun16-2018-07:37:57 | Modem iptv ip is 10.10.203.94
+[I]Jun16-2018-07:37:57 | Modem voip ip is 10.10.203.94
+[I]Jun16-2018-07:39:04 | extraconfig : WAN Connectivity to Play network and Internet OK
+---- UPnPWanIGDConnectionCheck start "Adding Port map entries for WAN IP Address of each WAN Interfaces using the service "WANIPConnection and action AddPortMapping" from different Client interfaces (Clients from STB_Private and LAN_Private pool)
+		steps:
+**** UPnPWanIGDConnectionCheck begins at "Jun16-2018-07:39:04"
+:::: UPnPWanIGDConnectionCheck fqtentry "testfolder "NG-39135" labels "Beta""
+[I]Jun16-2018-07:39:11 | UPnP is enabled by default
+[I]Jun16-2018-07:39:11 | Try to get UPnP and TR64 URL location for the 1 time(s)...
+[I]Jun16-2018-07:39:11 | setting interface to eth2
+[I]Jun16-2018-07:39:15 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | [l2tool::upnpSearch] UPNP Reply from 192.168.1.1 (C4 EA 1D AD C6 C6)
+[I]Jun16-2018-07:39:16 | Captured 10 packets
+[I]Jun16-2018-07:39:39 | Portmap entries added correctly for TCP and for the port 6725
+[E]Jun16-2018-07:40:10 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-07:40:10 | <----upnp.test TEST_ERROR 5----> tr69_get_datamodel : ACS result is failed
+[I]Jun16-2018-07:40:10 | Verifying the added portmap entries with the Dev datamodel values
+[E]Jun16-2018-07:40:10 | <----upnp.test TEST_ERROR 6----> PortMap Entries Added for TCP for 10.10.203.26 is not reflected in Device Datamodel-Test Fail
+[I]Jun16-2018-07:53:59 | UPnPEntry got added correctly for 7815
+[I]Jun16-2018-07:53:59 | Portmap entries added correctly for UDP and for the port 7815
+[E]Jun16-2018-07:54:29 | Unexpected Fault <{Invalid parameter name}> rcvd iso GetParameterNamesResponse
+[E]Jun16-2018-07:54:29 | <----upnp.test TEST_ERROR 7----> tr69_get_datamodel : ACS result is failed
+[I]Jun16-2018-07:54:29 | Verifying the added portmap entries with the Dev datamodel values
+[E]Jun16-2018-07:54:29 | <----upnp.test TEST_ERROR 8----> PortMap Entries Added for UDP for 10.10.203.26 is not reflected in Device Datamodel-Test Fail
+[I]Jun16-2018-07:54:29 | Verifying the packet received on the LAN side after adding PortMapping
+==== UPnPWanIGDConnectionCheck FAILED
+################################################################################
+Tests running in interp:  /usr/bin/tclsh
+Tests located in:  /tcl_automation/stcltest/triplePlayCI
+Tests running in:  /tcl_automation/workspace/
+Temporary files stored in /tcl_automation/workspace/
+Log files stored in /tcl_automation/workspace/testresults.txt
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  GUI_Generic.test
+Tests began at Tue Jun 12 12:22:54 IST 2018
+################################################################################
+GUI_Generic.test
+[I]Jun12-2018-12:22:54 | Registering child stop proc 'file8'
+TESTSERVERIF : CHILD INITIALISED 9000
+[I]Jun12-2018-12:22:54 | use the config file @jenkins_config_setup.tcl in /tcl_automation/workspace/
+[I]Jun12-2018-12:22:54 | ::log::setTraceFilename: /tcl_automation/workspace/trace_GUI_Generic.log
+[I]Jun12-2018-12:22:55 | SERIAL connection with MOXA because _connection(port) is known
+[I]Jun12-2018-12:23:08 | Resetting the modem to factory defaults with reconnect 1
+[I]Jun12-2018-12:30:19 | ::tcltest::prepareModem : configure modem interfaces for Modem
+[I]Jun12-2018-12:30:19 | ::tcltest::prepareModem : LAN side ip interface on modem is pingable
+[I]Jun12-2018-12:30:19 | Check and Enable Both Datamodel in DUT
+[I]Jun12-2018-12:31:49 | Adding extra configuration for DHCP sent option
+[I]Jun12-2018-12:32:05 | Creating new static DHCP Lease
+[I]Jun12-2018-12:33:14 | Adding IPv6rd static interface configuration
+[E]Jun12-2018-12:34:44 | <----GUI_Generic.test TEST_ERROR 1----> Unable to add admin role for contentSharing,Error Message : uci: Invalid argument
+[E]Jun12-2018-12:34:50 | <----GUI_Generic.test TEST_ERROR 2----> Unable to add admin role for printerSharing,Error Message : uci: Invalid argument
+[E]Jun12-2018-12:35:31 | <----GUI_Generic.test TEST_ERROR 3---->  Failed to add admin role
+---- Generic_GUI_Datamodel_devices start "Description:
+**** Generic_GUI_Datamodel_devices begins at "Jun12-2018-13:21:44"
+:::: Generic_GUI_Datamodel_devices fqtentry "testfolder NG-39123 labels FeatureTest"
+[I]Jun12-2018-13:24:12 | selenium::request : waitForTextPresent Devices ==> '' in 100 ms
+[I]Jun12-2018-13:24:12 | Verifying the GUI text matches with the reference text Devices
+[I]Jun12-2018-13:24:12 | verifyGuiTextPresent : Parameter has the expected text in GUI:Devices
+[I]Jun12-2018-13:24:12 | datamodelType is:NA
+[I]Jun12-2018-13:24:12 | guitype is: Text
+[I]Jun12-2018-13:24:12 | datamodelPath or UCIPath is:NA
+[I]Jun12-2018-13:24:12 | Dependentycmd: NA
+[I]Jun12-2018-13:24:12 | datamodelXpathValue:NA
+[I]Jun12-2018-13:24:12 | inputValueToBeGiven:NA
+[I]Jun12-2018-13:26:50 | compareType is : exact
+[I]Jun12-2018-13:28:18 | The Initial Datamodel Value is Unknown-00:0c:29:ab:7f:e1
+[I]Jun12-2018-13:28:18 | datamodelPath is : rpc.hosts.host.1.IPv4
+[I]Jun12-2018-13:28:18 | compareType is : exact
+[I]Jun12-2018-13:29:20 | selenium::request : click id=signout ==> '' in 106 ms
+[I]Jun12-2018-13:29:25 | request : testComplete  ==> '' in 100 ms
+[I]Jun12-2018-13:29:25 | Killing selenium server
+[I]Jun12-2018-13:29:34 | checking whether the core file is created or not
+[I]Jun12-2018-13:29:34 | No core file generated
+**** Generic_GUI_Datamodel_devices ends at "Jun12-2018-13:29:34"
+
+==== Generic_GUI_Datamodel_devices Description:
+			
+---- Failed in script: /tcl_automation/stcltest/triplePlayCI/GUI_Generic.test:line:0: error: test failed
+==== Log Records :
+[I]Jun12-2018-13:28:18 | datamodelPath is : rpc.hosts.host.1.IPv4
+[I]Jun12-2018-13:28:18 | compareType is : exact
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: can't read "paramValueForReferenceDatamodel(rpc.hosts.host.1.IPv4,value)": no such element in array
+    while executing
+"verifyGuiValueWithDataModel  $seleniumHandle Modem testenv $paramXpath  $paramValueForReferenceDatamodel($DatamodelPath,value) $DatamodelPath $datamod..."
+    (procedure "compareRuntimeVarryingGuiValueWithDatamodel" line 42)
+    invoked from within
+"compareRuntimeVarryingGuiValueWithDatamodel $seleniumHandle Modem testenv $datamodelRuntimeParamValueList $compareType $datamodelXpathValue $index $gu..."
+    ("DYNAMIC" arm line 18)
+    invoked from within
+"switch -exact $datamodelType {
+					IGD {
+						if {![info exists paramValueFromIgdDataModel($datamodelCmd,value)]} {
+							log::error "Unable to ret..."
+    ("uplevel" body line 163)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== Generic_GUI_Datamodel_devices FAILED
+---- Generic_GUI_Datamodel_internetaccess start "Description:
+**** Generic_GUI_Datamodel_internetaccess begins at "Jun12-2018-15:37:35"
+:::: Generic_GUI_Datamodel_internetaccess fqtentry "testfolder NG-39123 labels FeatureTest"
+[I]Jun12-2018-15:39:18 | Successfully login to homepage
+[I]Jun12-2018-15:39:18 | selenium::request : waitForElementPresent id=password_reminder ==> '' in 100 ms
+[I]Jun12-2018-15:39:18 | selenium::request : isElementPresent id=password_reminder ==> 'true' in 100 ms
+[I]Jun12-2018-15:39:18 | selenium::request : clickAt id=close-config ==> '' in 100 ms
+[E]Jun12-2018-15:44:17 | <----GUI_Generic.test TEST_ERROR 147----> visibility is not matching even after 120 seconds
+[E]Jun12-2018-15:44:17 | <----GUI_Generic.test TEST_ERROR 148----> Unable to find the path for id=ipaddr
+[I]Jun12-2018-15:44:17 | /tcl_automation/workspace/CI_Extensive_vant-f_generic_setup2/@log/1320123/799vac_vant-f/2018_06_12_12h22m40s/screenshot
+[I]Jun12-2018-15:44:17 | There is no existing Screenshot log captured.Creating new Filename
+[E]Jun12-2018-15:47:04 | <----GUI_Generic.test TEST_ERROR 149----> visibility is not matching even after 120 seconds
+[E]Jun12-2018-15:47:04 | <----GUI_Generic.test TEST_ERROR 150----> Unable to find the path for id=dns
+**** Generic_GUI_Datamodel_internetaccess ends at "Jun12-2018-15:47:17"
+
+==== Generic_GUI_Datamodel_internetaccess Description:
+			This testcase compares the default GUI value with datamodel value for all the cards and it throws error when GUI value did not match with datamodel value
+			Steps :
+			- Get the reference text of Parameter and its Xpath Value and Datamodel Path from page array.
+			- Check the Default values from GUI of Gateway with datamodel.
+			- If default values of GUI did not match with datamodel,fail the testcase FAILED
+---- Failed in script: /tcl_automation/stcltest/triplePlayCI/GUI_Generic.test:line:0: error: test failed
+==== Log Records :
+==== Generic_GUI_Datamodel_internetaccess FAILED
+################################################################################
+Tests running in interp:  /usr/bin/tclsh
+Tests located in:  /tcl_automation/stcltest/triplePlayCI
+Tests running in:  /tcl_automation/workspace/
+Temporary files stored in /tcl_automation/workspace/
+Log files stored in /tcl_automation/workspace/testresults.txt
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  fast.test
+Tests began at Tue Jun 19 06:59:44 IST 2018
+################################################################################
+fast.test
+[I]Jun19-2018-06:59:44 | Registering child stop proc 'file8'
+TESTSERVERIF : CHILD INITIALISED 9000
+[I]Jun19-2018-06:59:44 | use the config file @jenkins_config_setup.tcl in /tcl_automation/workspace/CI_fast_vbnt-k_generic
+[I]Jun19-2018-06:59:44 | ::log::setTraceFilename: /tcl_automation/workspace/CI_fast_vbnt-k_generic/@log/1320123/4130_vbnt-k/2018_06_19_06h59m33s/traceFailed/trace_fast.log
+[I]Jun19-2018-06:59:44 | SERIAL connection with MOXA because _connection(port) is known
+[I]Jun19-2018-06:59:44 | Connecting to 10.142.107.241:4013
+[I]Jun19-2018-07:11:29 | Not matching version element uci show version
+[I]Jun19-2018-07:11:29 | Not matching version element root@OpenWrt:~# 
+---- wifiDoctorSanity start "Check whether Wifi doctor module messages are present in logread after configuring Wifi-doctor module settings.
+**** wifiDoctorSanity begins at "Jun19-2018-07:22:28"
+:::: wifiDoctorSanity fqtentry "testfolder "NG-47146" labels "Beta""
+[I]Jun19-2018-07:22:33 | Modem wan ip is 10.10.20.98
+[I]Jun19-2018-07:22:33 | Modem mgmt ip is 10.10.20.98
+[I]Jun19-2018-07:22:33 | Modem iptv ip is 10.10.20.98
+[I]Jun19-2018-07:22:33 | Modem voip ip is 10.10.20.98
+[I]Jun19-2018-07:22:36 | Memory stats Before Test : MemFree:          190568 kB
+[I]Jun19-2018-07:22:36 | checking WiFi-Doctor-Agent log messages present in logread or not
+[E]Jun19-2018-07:25:42 | <----fast.test TEST_ERROR 5----> WiFi-Doctor Agent LogMessage not present in logread. Please check the WifiDoctor Module
+[I]Jun19-2018-07:25:43 | Memory stats After Test : MemFree:          190344 kB
+[I]Jun19-2018-07:25:43 | *******Performing Cleanup ******
+[I]Jun19-2018-07:25:43 | checking whether the core file is created or not
+[I]Jun19-2018-07:25:44 | No core file generated
+**** wifiDoctorSanity ends at "Jun19-2018-07:25:44"
+==== wifiDoctorSanity FAILED
+---- WebUI_Sanity_Checks start "Sanity webUI checks
+**** WebUI_Sanity_Checks begins at "Jun19-2018-07:34:33"
+:::: WebUI_Sanity_Checks fqtentry "testfolder "NG-39123" labels "Beta""
+[I]Jun19-2018-07:34:47 | Starting selenium server in the background (port=4444)
+[I]Jun19-2018-07:35:44 | Opening session to selenium server
+[I]Jun19-2018-07:35:49 | LOGIN TO THE GATEWAY VIA ADMIN USER
+[I]Jun19-2018-07:35:49 | homePageDut : Trying to open Home Page
+[I]Jun19-2018-07:35:52 | selenium::request : open / {} ==> '' in 2712 ms
+[I]Jun19-2018-07:36:06 | selenium::request : isElementPresent id=signin ==> 'true' in 109 ms
+[I]Jun19-2018-07:36:20 | selenium::request : clickAndWait id=signin ==> '' in 408 ms
+[I]Jun19-2018-07:36:20 | Entering login credentials in Login page
+[I]Jun19-2018-07:36:34 | selenium::request : type id=srp_username admin ==> '' in 100 ms
+[I]Jun19-2018-07:36:34 | selenium::request : type id=srp_password SY08TREK ==> '' in 102 ms
+[I]Jun19-2018-07:36:34 | selenium::request : clickAt id=sign-me-in ==> '' in 101 ms
+[E]Jun19-2018-07:38:46 | <----fast.test TEST_ERROR 11----> visibility is not matching even after 120 seconds
+[E]Jun19-2018-07:38:46 | <----fast.test TEST_ERROR 12----> Failed to login to homepage with password SY08TREK
+[I]Jun19-2018-07:38:46 | /tcl_automation/workspace/@log/1320123/
+[I]Jun19-2018-07:38:46 | There is no existing Screenshot log captured.Creating new Filename
+[I]Jun19-2018-07:38:46 | successfully captured failed log screenshot. screenshot Location /tcl_automation/workspace/WebUI_Sanity_Checks_0.png
+[E]Jun19-2018-07:38:46 | <----fast.test TEST_ERROR 13----> Failed to login to gateway
+[I]Jun19-2018-07:38:48 | Memory stats After Test : MemFree:          175596 kB
+[I]Jun19-2018-07:38:48 | *******Performing Cleanup ******
+**** WebUI_Sanity_Checks ends at "Jun19-2018-07:38:54"
+==== WebUI_Sanity_Checks FAILED
