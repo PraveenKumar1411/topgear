@@ -1,0 +1,266 @@
+2018/08/04 17:48:52 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:48:52 logscanner.sh :- ERROR#0001: Source log is not available @ /D/logfilter/all.log , Exiting script...!
+2018/08/04 17:49:11 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:49:11 logscanner.sh :- Source file available...!
+2018/08/04 17:49:11 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:49:12 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:49:12 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:49:12 logscanner.sh :- Number of Error(s) for tr181_datamodel.test =
+2018/08/04 17:49:12 logscanner.sh :- Number of Error(s) for led.test =
+2018/08/04 17:49:13 logscanner.sh :- Number of Error(s) for upnp.test =
+2018/08/04 17:49:13 logscanner.sh :- Number of Error(s) for GUI_Generic.test =
+2018/08/04 17:49:13 logscanner.sh :- Number of Error(s) for fast.test =
+2018/08/04 17:49:13 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:49:53 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:49:53 logscanner.sh :- Source file available...!
+2018/08/04 17:49:53 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:49:53 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:49:54 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:49:54 logscanner.sh :- Number of Error(s) for tr181_datamodel.test =
+2018/08/04 17:49:54 logscanner.sh :- Number of Error(s) for led.test =
+2018/08/04 17:49:54 logscanner.sh :- Number of Error(s) for upnp.test =
+2018/08/04 17:49:55 logscanner.sh :- Number of Error(s) for GUI_Generic.test =
+2018/08/04 17:49:55 logscanner.sh :- Number of Error(s) for fast.test =
+2018/08/04 17:49:55 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:51:00 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:51:00 logscanner.sh :- Source file available...!
+2018/08/04 17:51:00 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:51:01 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:51:01 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:51:02 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 0 total
+2018/08/04 17:51:02 logscanner.sh :- Number of Error(s) for led.test = 0 total
+2018/08/04 17:51:02 logscanner.sh :- Number of Error(s) for upnp.test = 0 total
+2018/08/04 17:51:02 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 0 total
+2018/08/04 17:51:02 logscanner.sh :- Number of Error(s) for fast.test = 0 total
+2018/08/04 17:51:03 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:57:36 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:57:36 logscanner.sh :- Source file available...!
+2018/08/04 17:57:36 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:57:37 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:57:37 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:57:37 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 17:57:37 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 17:57:38 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 17:57:38 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 17:57:38 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 17:57:38 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:57:48 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:57:48 logscanner.sh :- Source file available...!
+2018/08/04 17:57:48 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:57:49 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:57:49 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:57:49 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 17:57:49 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 17:57:50 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 17:57:50 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 17:57:50 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 17:57:50 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:59:38 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:59:38 logscanner.sh :- Source file available...!
+2018/08/04 17:59:38 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:59:39 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:59:39 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:59:39 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 17:59:40 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 17:59:40 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 17:59:40 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 17:59:40 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 17:59:40 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:59:50 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:59:50 logscanner.sh :- Source file available...!
+2018/08/04 17:59:50 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:59:50 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:59:50 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:59:50 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 17:59:51 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 17:59:51 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 17:59:51 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 17:59:51 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 17:59:51 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 17:59:58 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 17:59:58 logscanner.sh :- Source file available...!
+2018/08/04 17:59:58 logscanner.sh :- Started scanning logs...!
+2018/08/04 17:59:59 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 17:59:59 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 17:59:59 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 17:59:59 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:00:00 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 18:00:00 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 18:00:00 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 18:00:00 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:02:14 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:02:14 logscanner.sh :- Source file available...!
+2018/08/04 18:02:14 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:02:15 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:02:15 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:02:15 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 18:02:15 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:02:16 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 18:02:16 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 18:02:16 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 18:02:16 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:02:37 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:02:37 logscanner.sh :- Source file available...!
+2018/08/04 18:02:37 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:02:38 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:02:38 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:02:38 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 1
+2018/08/04 18:02:39 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:02:39 logscanner.sh :- Number of Error(s) for upnp.test = 1
+2018/08/04 18:02:39 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 1
+2018/08/04 18:02:39 logscanner.sh :- Number of Error(s) for fast.test = 1
+2018/08/04 18:02:40 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:10:10 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:10:10 logscanner.sh :- Source file available...!
+2018/08/04 18:10:11 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:10:11 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:10:11 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:10:11 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 0
+2018/08/04 18:10:12 logscanner.sh :- Number of Error(s) for led.test = 0
+2018/08/04 18:10:12 logscanner.sh :- Number of Error(s) for upnp.test = 0
+2018/08/04 18:10:12 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 0
+2018/08/04 18:10:12 logscanner.sh :- Number of Error(s) for fast.test = 0
+2018/08/04 18:10:12 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:11:03 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:11:03 logscanner.sh :- Source file available...!
+2018/08/04 18:11:03 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:11:03 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:11:04 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:11:04 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 0
+2018/08/04 18:11:04 logscanner.sh :- Number of Error(s) for led.test = 0
+2018/08/04 18:11:04 logscanner.sh :- Number of Error(s) for upnp.test = 0
+2018/08/04 18:11:05 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 0
+2018/08/04 18:11:05 logscanner.sh :- Number of Error(s) for fast.test = 0
+2018/08/04 18:11:05 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:11:12 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:11:12 logscanner.sh :- Source file available...!
+2018/08/04 18:11:13 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:11:13 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:11:13 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:11:13 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 0
+2018/08/04 18:11:14 logscanner.sh :- Number of Error(s) for led.test = 0
+2018/08/04 18:11:14 logscanner.sh :- Number of Error(s) for upnp.test = 0
+2018/08/04 18:11:14 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 0
+2018/08/04 18:11:15 logscanner.sh :- Number of Error(s) for fast.test = 0
+2018/08/04 18:11:15 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:12:38 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:12:38 logscanner.sh :- Source file available...!
+2018/08/04 18:12:38 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:12:38 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:12:39 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:12:39 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 40
+2018/08/04 18:12:39 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:12:39 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:12:40 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:12:40 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:12:40 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:15:30 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:15:30 logscanner.sh :- Source file available...!
+2018/08/04 18:15:30 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:15:31 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:15:31 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:15:31 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 40
+2018/08/04 18:15:31 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:15:32 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:15:32 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:15:32 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:15:32 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:16:34 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:16:34 logscanner.sh :- Source file available...!
+2018/08/04 18:16:34 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:16:35 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:16:35 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:16:35 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 40
+2018/08/04 18:16:36 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:16:36 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:16:37 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:16:37 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:16:37 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:28:09 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:28:09 logscanner.sh :- Source file available...!
+2018/08/04 18:28:09 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:28:09 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:28:09 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:28:10 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 40
+2018/08/04 18:28:10 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:28:10 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:28:11 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:28:11 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:28:11 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:33:06 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:33:06 logscanner.sh :- Source file available...!
+2018/08/04 18:33:06 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:33:06 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:33:07 logscanner.sh :- Test suite(s) = tr181_datamodel.test led.test upnp.test GUI_Generic.test fast.test
+2018/08/04 18:33:07 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 18:33:07 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:33:07 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:33:08 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:33:08 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:33:08 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:46:22 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:46:22 logscanner.sh :- Source file available...!
+2018/08/04 18:46:23 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:46:24 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:46:26 logscanner.sh :- Test suite(s) = tr181_datamodel.test,led.test,upnp.test,GUI_Generic.test,fast.test,
+2018/08/04 18:46:27 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 18:46:27 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:46:27 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:46:28 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:46:28 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:46:29 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:50:05 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:50:05 logscanner.sh :- Source file available...!
+2018/08/04 18:50:05 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:50:06 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:50:06 logscanner.sh :- Test suite(s) = tr181_datamodel.test,led.test,upnp.test,GUI_Generic.test,fast.test,
+2018/08/04 18:50:06 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 18:50:06 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:50:07 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:50:07 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:50:07 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:50:08 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 18:54:53 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 18:54:53 logscanner.sh :- Source file available...!
+2018/08/04 18:54:53 logscanner.sh :- Started scanning logs...!
+2018/08/04 18:54:54 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 18:54:54 logscanner.sh :- Test suite(s) = tr181_datamodel.test,led.test,upnp.test,GUI_Generic.test,fast.test,
+2018/08/04 18:54:54 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 18:54:55 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 18:54:55 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 18:54:55 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 18:54:56 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 18:54:56 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 19:01:35 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 19:01:35 logscanner.sh :- Source file available...!
+2018/08/04 19:01:35 logscanner.sh :- Started scanning logs...!
+2018/08/04 19:01:36 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 19:01:36 logscanner.sh :- Test suite(s) = tr181_datamodel.test,led.test,upnp.test,GUI_Generic.test,fast.test,
+2018/08/04 19:01:36 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 19:01:36 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 19:01:37 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 19:01:37 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 19:01:37 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 19:01:38 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 19:09:59 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 19:09:59 logscanner.sh :- Source file available...!
+2018/08/04 19:09:59 logscanner.sh :- Started scanning logs...!
+2018/08/04 19:10:00 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 19:10:00 logscanner.sh :- Test suite(s) = tr181_datamodel.test,led.test,upnp.test,GUI_Generic.test,fast.test,
+2018/08/04 19:10:00 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 19:10:01 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 19:10:01 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 19:10:01 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 19:10:02 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 19:10:02 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------
+2018/08/04 19:14:07 logscanner.sh :- ---------------------------------------------------logscanner Started-----------------------------------------------------------
+2018/08/04 19:14:07 logscanner.sh :- Source file available...!
+2018/08/04 19:14:07 logscanner.sh :- Started scanning logs...!
+2018/08/04 19:14:07 logscanner.sh :- Number of Test Suite(s) Found in the log = 5
+2018/08/04 19:14:08 logscanner.sh :- Test suite(s) = tr181_datamodel.test,led.test,upnp.test,GUI_Generic.test,fast.test,
+2018/08/04 19:14:08 logscanner.sh :- Number of Error(s) for tr181_datamodel.test = 21
+2018/08/04 19:14:08 logscanner.sh :- Number of Error(s) for led.test = 1
+2018/08/04 19:14:08 logscanner.sh :- Number of Error(s) for upnp.test = 8
+2018/08/04 19:14:09 logscanner.sh :- Number of Error(s) for GUI_Generic.test = 7
+2018/08/04 19:14:09 logscanner.sh :- Number of Error(s) for fast.test = 4
+2018/08/04 19:14:09 logscanner.sh :- ---------------------------------------------------logscanner Ended-------------------------------------------------------------

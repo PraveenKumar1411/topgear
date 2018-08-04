@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh:we
 #####################################################################################################
 #
 # $Script: logscanner.sh
@@ -13,7 +13,7 @@
 #####################################################################################################
 
 #Config values as input to script(Can be seperated into stand alone config file)
-source_log_location="/D/logfilter/all.log"
+source_log_location="/D/logfilter/topgear/all.log"
 
 #Config values as output from script
 script_log_file="logscanner-log-`date +%d-%m-%y`.log"
@@ -22,6 +22,11 @@ output_file="FailureShortSummary-`date +%d-%m-%y`.csv"
 function writelog(){
 	param1="${1}"
 	echo "`date "+%Y/%m/%d %H:%M:%S"` $0 ":- $param1 >> ${script_log_file} 
+}
+
+function writefile(){
+	param1="${1}"
+	echo "${param1}" >> ${output_file}
 }
 
 writelog "---------------------------------------------------logscanner Started-----------------------------------------------------------"
@@ -40,13 +45,16 @@ writelog "Started scanning logs...!"
 
 grep -i "Only running test files that match:" ${source_log_location} | cut -d ':' -f 2 | sed -e 's/^[ \t]*//;s/[ \t]*$//'  > test_suites.tmp
 
-echo "Number of Test suite(s) Found in the log = `wc -l < test_suites.tmp`"
-writelog "Number of Test Suite(s) Found in the log = `wc -l < test_suites.tmp`"
-echo "Test suite(s) = `cat test_suites.tmp | tr '\n' '\t' `"
-writelog "Test suite(s) = `cat test_suites.tmp | tr '\n' '\t' `"
+test_suite_count=`wc -l < test_suites.tmp` 
+
+echo "Number of Test suite(s) Found in the log = ${test_suite_count}"
+writelog "Number of Test Suite(s) Found in the log = ${test_suite_count}"
+echo "Test suite(s) = `cat test_suites.tmp | tr '\n' ', ' `"
+writelog "Test suite(s) = `cat test_suites.tmp | tr '\n' ', ' `"
 
 #cat test_suites.tmp
 
+#Creating the empty output file
 echo "" > ${output_file}
 
 while IFS='' read -r line || [[ -n "$line" ]];
@@ -54,20 +62,26 @@ do
 	#echo ${line}
 	#Retrieving test_suites one by one
 	current_test_suite=${line}
-	echo "Current test_suite -->${current_test_suite}"
-	echo "Current test_suite -->${current_test_suite}" >> ${output_file}
+	echo "Test_suite --> ${current_test_suite}"
+	writefile "Test_suite --> ${current_test_suite}" 
 	#collecting failed test cases for the current_test_suite
 	echo "-----------------------------------------------------------------------------------------------------------------------------"
-	echo "-----------------------------------------------------------------------------------------------------------------------------" >> ${output_file}
-	echo "`grep -i "${current_test_suite}" ${source_log_location} | grep -i "TEST_ERROR" `"
-	echo "`grep -i "${current_test_suite}" ${source_log_location} | grep -i "TEST_ERROR" `" >> ${output_file}
+	grep -i "${current_test_suite}" ${source_log_location} | grep -i "TEST_ERROR" | sort -u > test_error.tmp
+	error_count=`cat  test_error.tmp | grep -cFi "[E]" ` 
+	echo "Number of Error(s) for ${current_test_suite} = ${error_count}"
+	writelog "Number of Error(s)  for ${current_test_suite} = ${error_count}"
+	writefile  "Number of Test Error(s) = ${error_count}"
+	writefile "-----------------------------------------------------------------------------------------------------------------------------"
+	#cat test_error.tmp
+	writefile "`cat test_error.tmp`"
 	echo "-----------------------------------------------------------------------------------------------------------------------------"
-	echo "-----------------------------------------------------------------------------------------------------------------------------" >> ${output_file}
+	writefile "-----------------------------------------------------------------------------------------------------------------------------"
 
 done < test_suites.tmp 
 
 #removing temp file test_suites.tmp
 echo "Removing temp file test_suite.tmp"
 rm -f test_suites.tmp
+rm -f test_error.tmp
 
 writelog "---------------------------------------------------logscanner Ended-------------------------------------------------------------"
