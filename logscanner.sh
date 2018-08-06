@@ -20,12 +20,12 @@ script_log_file="logscanner-log-`date +%d-%m-%y`.log"              #include the 
 timestamp=`date +%d-%m-%y-%H:%M:%S`                              #let us created many execution output files, if only one file needed for a day of log scanning remove the hour , minute, sec
 output_file="FailureShortSummary-${timestamp}.csv"  #inlcude absolute path to populate the output file in some other directory instead of current directory
 
-function writelog(){
+writelog(){
 	param1="${1}"
 	echo "`date "+%Y/%m/%d %H:%M:%S"` $0 ":- $param1 >> ${script_log_file} 
 }
 
-function writefile(){
+writefile(){
 	param1="${1}"
 	echo "${param1}" >> ${output_file}
 }
@@ -58,7 +58,7 @@ writelog "Test suite(s) = `cat test_suites.tmp | tr '\n' ', ' `"
 #Creating the empty output file
 echo "" > ${output_file}
 
-while IFS='' read -r line || [[ -n "$line" ]];
+while IFS='' read -r line || [ -n "$line" ];
 do
 	#echo ${line}
 	#Retrieving test_suites one by one
