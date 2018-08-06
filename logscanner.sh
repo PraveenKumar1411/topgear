@@ -1,4 +1,4 @@
-#!/bin/sh:we
+#!/bin/bash
 #####################################################################################################
 #
 # $Script: logscanner.sh
@@ -13,11 +13,12 @@
 #####################################################################################################
 
 #Config values as input to script(Can be seperated into stand alone config file)
-source_log_location="/D/logfilter/topgear/all.log"
+source_log_location="/H/Workspace/logfilter/topgear/all.log"       #change this file path after deploying the script in your environment
 
 #Config values as output from script
-script_log_file="logscanner-log-`date +%d-%m-%y`.log"
-output_file="FailureShortSummary-`date +%d-%m-%y`.csv"
+script_log_file="logscanner-log-`date +%d-%m-%y`.log"              #include the path in the variable to populate the logs in different directory instead of current script execution directory
+timestamp=`date +%d-%m-%y-%H:%M:%S`                              #let us created many execution output files, if only one file needed for a day of log scanning remove the hour , minute, sec
+output_file="FailureShortSummary-${timestamp}.csv"  #inlcude absolute path to populate the output file in some other directory instead of current directory
 
 function writelog(){
 	param1="${1}"
@@ -82,6 +83,7 @@ done < test_suites.tmp
 #removing temp file test_suites.tmp
 echo "Removing temp file test_suite.tmp"
 rm -f test_suites.tmp
+echo "Removing temp file test_error.tmp"
 rm -f test_error.tmp
 
 writelog "---------------------------------------------------logscanner Ended-------------------------------------------------------------"
